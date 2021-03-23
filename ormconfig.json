@@ -7,10 +7,10 @@
     "database": "crtsiste_sistemaweb",
     "dateStrings": "DATETIME",
     "entities": [
-        "./dist/models/*.ts"
+        "./dist/models/*.js"
     ],
     "migrations": [
-        "./dist/database/migrations/*.ts"
+        "./dist/database/migrations/*.js"
 
     ],
     "cli": {
