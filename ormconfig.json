@@ -7,14 +7,14 @@
     "database": "crtsiste_sistemaweb",
     "dateStrings": "DATETIME",
     "entities": [
-        "./src/models/*.ts"
+        "./dist/models/*.ts"
     ],
     "migrations": [
-        "./src/database/migrations/*.ts"
+        "./dist/database/migrations/*.ts"
 
     ],
     "cli": {
-        "migrationsDir": "./src/database/migrations"
+        "migrationsDir": "./dist/database/migrations"
     },
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true

@@ -5,7 +5,8 @@
     "license": "MIT",
     "scripts": {
         "build": "babel src --extensions \".ts\" --out-dir dist --copy-files",
-        "start": "ts-node-dev --ignore node_module src/server.ts",
+        "start-dev": "ts-node-dev --ignore node_module src/server.ts",
+        "start": "node ./dist/server.js",
         "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
         "postinstall": "npm run build"
 
