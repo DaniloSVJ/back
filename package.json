@@ -48,6 +48,7 @@
         "pg": "^8.5.1",
         "reflect-metadata": "^0.1.13",
         "salve": "^9.1.2",
+        
         "typeorm": "^0.2.30",
         "typescript": "^4.2.3",
         "uuidv4": "^6.2.4"
